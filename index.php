@@ -10,7 +10,7 @@
     <title>Página de Acesso</title>
   </head>
   <body>
-    <form action="php/validar.php" method="POST">
+    <form action="php/logar.php" method="POST">
       <div class="container">
         <h3>Shoe Sneakers</h3>
         <img src="imagens/tenis.png" alt="Tênis de Mostragem">
