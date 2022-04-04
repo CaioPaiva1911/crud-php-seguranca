@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body{
+    background-color: rgb(232, 240, 254);
+   
+}
+
+h1{
+    text-align: center;
+    margin: 20px auto;
+    color: darkblue;
+}
+h3{
+    text-align: center;
+    color: #1188e6;
+}
+
+form{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+button{
+    margin: 10px auto;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #1188e6;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+button:hover{
+    background-color: darkblue;
+}
+table{
+    text-indent: 0;
+    border-collapse: unset;
+    border-spacing: 0;
+}
+/* O PROBLEMA É A WIDTH DO INPUT  */
+input, select{
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #d4dadf;
+    background-color: rgb(232, 240, 254);
+    color: black;
+    
+}
+
+.btn{
+    position: fixed;
+    top: 50%;
+}
+input[type='submit']{
+    background-color: #1188e6;
+}
+
+input:focus{
+    border: 1px solid green;
+}
+.listar{
+    text-align: center;
+}
+
+.tabela{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+  }
+  
+  .tabela td, .tabela th {
+    border: 1px solid lightgrey;
+    padding: 8px;
+  }
+  
+  .tabela tr:nth-child(even){background-color:azure; }
+  
+  .tabela tr:hover {background-color: #ddd;}
+  
+  .tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1188e6;
+    color: white;
+  }

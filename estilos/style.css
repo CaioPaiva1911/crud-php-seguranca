@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body{
+    background-color: rgb(232, 240, 254);
+   
+}
+
+
+h3{
+    text-align: center;
+    color: #1188e6;
+}
+.container{ 
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 60vh;
+    height: 80vh;
+    align-items: justify;
+    justify-content: space-around;
+    margin: 4% auto;
+    padding: 20px;
+    background-color: #fcfcfc;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
+}
+.container img{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+
+
+button{
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #1188e6;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+input, select{
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid #d4dadf;
+    background-color: rgb(232, 240, 254);
+    color: black;
+    
+}
+input[type='submit']{
+    background-color: #1188e6;
+}
+
+input:focus{
+    border: 1px solid green;
+}
+
+
+/* Script para as tabalas */
+
+#1, #2, #3, #4{
+    display: none;
+}
+
+.tabela{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 5px;
+  }
+  
+  .tabela td, .tabela th {
+    border: 1px solid lightgrey;
+    padding: 8px;
+  }
+  
+  .tabela tr:nth-child(even){background-color:azure; }
+  
+  .tabela tr:hover {background-color: #ddd;}
+  
+  .tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #1188e6;
+    color: white;
+  }

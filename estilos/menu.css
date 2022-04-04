@@ -1,0 +1,164 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: center;
+    background-color: rgb(232, 240, 254);
+}
+
+header{
+    top: 0;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(152.54deg,#1a82e2,#294661);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 1;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+li{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+a:hover{
+    color: white;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+h1{
+    width: 75%;
+    font-size: 1.75rem;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+.perfil{
+    color: #fff;
+    position: absolute;
+    font-weight: 100;
+    margin: 20px;
+    padding: 10px;
+    right: 0;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+.perfil a{
+    color: red;
+    font-weight: bold;
+}
+img{
+    width: 100%;
+}
+.perfil img{
+    width: 30px;
+    height: 30px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10% auto;
+    box-sizing: border-box;
+}
+
+
+.item-menu{
+    background-color: azure;
+    color: midnightblue;
+    width: 25%;
+    margin: 15px auto;
+    border-radius: 4%;
+    cursor: pointer;
+}
+
+.item-menu img{
+    width: 150px;
+    height: 150px;
+    border-radius: 4%;
+}
+
+.item-menu:hover{
+    width: 40%;
+    height: auto;
+    transition: all 2s;
+}
+ 
+form{
+    display: flex; 
+    background-color: azure;
+    flex-direction: column;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin: 50px auto;
+    width: 30%;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px; 
+    transition: all 1s;
+}  
+
+
+input, select{
+    border-radius: 3px;
+    padding: 4px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 1px solid #d4dadf;
+    background-color: rgb(232, 240, 254);
+    color: black;
+    
+}
+
+item-menu:hover{
+    scale: 1.1;
+}
+h3{
+    text-transform: uppercase;
+    color: darkslategrey;
+}
+
+h4{
+    margin: 0;
+    font-size: 1.5rem;
+    color: indigo;
+}
+
+p{
+    font-weight: bold;
+}
+
+
+ #1,  #2,  #3, #4{
+    display: none;
+    transition: all 0.5s; 
+    
+}
