@@ -20,10 +20,10 @@
         if($resultado != 0){
             echo "<script> alert('Produto Localizado com sucesso!'); </script>";
         }else{
-            // echo "<script>
-            // alert('Produto não localizado'); 
-            // window.location.href = '../php/menuprod.php'
-            // </script>";
+            echo "<script>
+            alert('Produto não localizado'); 
+            window.location.href = '../php/menuprod.php'
+            </script>";
             echo $resultado;
         }
     ?>

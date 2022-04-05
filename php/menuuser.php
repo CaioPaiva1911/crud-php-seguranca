@@ -56,7 +56,7 @@
         </div>
 
         <div class="form2" id="2">
-            <form action="../crud/buscardadosnome.php" method="POST">
+            <form action="../crud/buscardadosnome2.php" method="POST">
                 <h2>Alterar dados de Cliente</h2>
                 <input type="hidden" name="tabela" value="2">
                 <input type="text" name="buscaNome" id="" placeholder="Digite seu nome: ">

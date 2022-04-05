@@ -19,9 +19,9 @@
           <option value="user">Usuário Padrão</option>
         </select>
       
-        Login: <input type="text" name="login"  placeholder="Digite seu nome">  
+        Login: <input type="text" name="login"  placeholder="Digite seu nome" required>  
       
-        Senha: <input type="text" name="senha"  placeholder="Digite sua senha">
+        Senha: <input type="text" name="senha"  placeholder="Digite sua senha" required>
       
         <input type="submit" value="Acessar">
       </div>
